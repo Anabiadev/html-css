@@ -1,0 +1,45 @@
+HTM5, somente CSS.
+
+CSS significa folhas de estilo em cascata.
+-------------------------------------------------------------------------------------------
+                                     TAGS
+
+Para mudar a cor de um texto, faça: <h1 style="color: hotpink;"> texto </h1>
+
+se tiver mais de um h1 no seu código e não mudar a cor dele também, é porque você
+precisa fazer isso em cada um.
+
+para mudar a fonte do texto, faça: <body style= font Family:  ">
+
+para reorganizar seu texto, faça style=" text align justify.
+
+para mudar o tamanho da letra, faça font size 1.5em; .
+
+para adicionar uma cor na linha do código, adicione o background color
+junto com o h1 por exemplo.
+-------------------------------------------------------------------------------------------
+
+                                    MÉTODOS
+
+o método inline não é usado para o dia a dia, evite usa-lo, somente se for algo especifico, então não use esse método caso for fazer algum site para o cliente.
+
+O CSS interno use somente para estilos pequenos
+um método vantajoso (interno) e que pode ser usado no dia a dia (tá disponível no ex014)
+é organizar entre estilo e conteúdo, porém suas desvantagens são:
+
+1. alguma vezes você vai encontrar códigos onde tem um estilo muito grande, então tem que
+descer lá em baixo para procurar o conteúdo.
+
+2. se você tivesse 25 páginas e quisesse copiar o estilo da 1 página, teria que copiar
+e colar em cada página.
+-------------------------------------------------------------------------------------------
+                              método de usar css separado (externo)
+
+não duplique estilos nas mesmas páginas, ao invés disso, faça: 
+1. use o link css no seu código
+
+as vezes se der problema de compatibilidade, use a regra
+@charset "UTF-8";
+
+você pode utilizar mais de um link css, como um extra.
+e também você pode usar tanto o css externo, css interno e o inline no mesmo arquivo.

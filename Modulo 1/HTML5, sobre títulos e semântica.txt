@@ -1,0 +1,12 @@
+HTML5 sobre títulos
+
+Os títulos vão de <h1> a <h6>, níveis hierárquicos seguem a sequência: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
+
+você pode gerar um parágrafo contendo um texto só para complementar, que é o caso
+do lorem.
+----------------------------------------------------------------------------------------------
+
+Semântica
+
+  Imagine que você está pintando uma flor, e começa desenhando o rascunho. Mesmo que você utilizará tintas para pintar, você pinta as partes da flor com lápis apenas para identificar/lembrar com que cor elas serão pintadas. Você está dando um significado para aquelas partes, um destino que elas terão. É claro que você também poderia simplesmente desenhar uma seta ou escrever o nome da cor para se lembrar das cores originais. A forma como você faz não importa muito.
+   Assim, em HTML temos as tags de semântica (pintura à lápis), que só servem para dar um significado ao texto, um destino para ele. Não importa se o texto no HTML puro vai ficar em negrito ou itálico, até porque futuramente você irá adicionar estilo (pintura com tinta) com as *CSS*.

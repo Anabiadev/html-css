@@ -1,0 +1,29 @@
+HTML5
+
+por conta de direitos autorais, não use qualquer imagem em seus sites/projetos,
+por isso, existem alguns sites como unsplash ou pexels, além de buscar no google
+imagens e filtrar para aparecer só imagens marcadas para reutilização com 
+modificação;
+
+se quiser utilizar algum programa para modificar suas imagens, (gratuito)
+baixe o GIMP.
+
+adicionar imagem <img src=""alt="">
+aperte control + espaço para facilitar.
+
+formato de imagens para web: JPG e PNG.
+
+JPG: consegue compactar uma imagem
+PNG: substitui o formato GIF permitindo transparência, sem animação.
+
+vá em gimp> imagem> redimensionar imagem; para ajustar 
+tamanho e resolução.
+
+melhor tamanho: 1500x1000
+melhor resolução: 50,000 ou 72,000
+
+como exportar imagem para web:
+vá para o gimp> arquivo> exportar como.
+
+
+

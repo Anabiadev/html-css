@@ -1,0 +1,165 @@
+HTML5
+
+estrutura:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    
+  </body>
+</html>
+
+-------------------------------------------------------------------------------------------
+                                           TAGS
+
+<h1> Parágrafos e quebra de linhas </h1>
+
+<p> parágrafo </p>
+
+quebrar alguma linha ou adicionar espaçamento <br>
+
+adicionar comentário <!-- 
+
+símbolos especiais: &yen; &delta; &cent;
+
+adicionar emoji &#x + código do emoji (emojipedia) ex: &#x1F913
+
+se quiser aparecer o símbolo < (menor) ou > (maior) no seu texto sem virar uma tag, faça isso: &lt; para menor, &gt para maior.
+
+adicionar imagem <img src=""alt="">
+aperte control + espaço para facilitar.
+
+para adicionar um pequeno texto lero lero: /lorem
+
+control + shift + P = abre uma nova tela para inserir um código
+para envelopar uma frase por exemplo, aperte control + shift + p, depois abb (envolver com abreviações) e escreva a tag.
+
+como fazer um seletor para cores com tag?
+<style>
+     mark {
+     background-color: aqua;
+     }
+<style/>
+
+negrito: strong ou b.
+itálico: I ou em.
+marcado: mark.
+texto pequeno: small.
+texto excluído ou riscado: del.
+texto inserido ou sublinhado: ins ou u.
+ 
+para colocar um número elevado como x7,(texto sobre escrito) use a tag <sup>
+para colocar um número abaixo como 2, (texto subscrito) use a tag <sub>
+
+utilize a tag <pre> caso escreva algum código e queira que ele fique no meio.
+para corrigir a tabulação e voltar, aperte shift + tab.
+para ir pra frente, aperte tab.
+
+
+para citações, use a tag <q>
+para blocos de citações use a tag <blockquote>
+para abreviações use a tag <abbr>
+para usar um link dentro de uma citação use a tag <cite>
+e texto invertido use a tag <bdo>
+
+para criar listas ordenadas, use a tag <ol>
+para listas não ordenadas, use a tag <ul>
+para ambas, use a tag <li>
+
+para criar um termo ou descrição, use sempre a tag <dl> antes.
+para criar termos, use a tag <dt>
+e para criar descrição, use a tag <dd>
+
+para adicionar um link use a tag <a>
+-------------------------------------------------------------------------------------------
+                                          PARA LINKS
+
+para abrir uma nova janela quando alguém clicar no seu link, utilize a tag target=" _blank"
+rel="external">
+
+use control + espaço para tags como <a>, dentro de href"".
+use a tag <target _self> para quando alguém clicar no link, abrir na mesma página.
+para links internos, não precisa colocar a URL inteira, porém isso só funciona se o link
+estiver na mesma pasta.
+para seguir para próxima página, use o rel= "next"
+para voltar para página anterior, use o rel= "prev"
+para usar um link que o mecanismo de busca não associe ao seu site, como links patrocinados, utilize rel= "nofollow"
+
+caso queria adicionar um documento HTML com a tag <a>, mas esse documento não está na pasta, use:
+../ para voltar para pasta anterior
+./ é a própria pasta
+
+para usar um documento em outra pasta, copie esse documento para a pasta que você quer.
+------------------------------------------------------------------------------------------- 
+                                        PARA IMAGENS
+
+quer colocar um texto do lado de uma imagem? faça isso:
+<img,<p> </p>
+
+use a tag <picture> com <img>
+para fazer com que uma imagem se expanda use a tag <source media max width 700px "imagens/foto-p.png" type.
+
+nao se esqueça: siga a ordem das imagens colocando os <source>, (por exemplo, uma imagem de tamanho 700 fica em primeiro e a de 1000 fica em segundo, se inverter isso o código nao funciona.)
+-------------------------------------------------------------------------------------------
+                                          PARA AUDIOS
+
+para usar um áudio no site que seja gratuito, use o youtube studio e vá em biblioteca
+de audio.
+
+use a tag <audio> e source + type para colocar um áudio em seu site.
+alguns navegadores não suportam o formato mp3, então tem outras opções como WAV, OGG
+para adicionar esses formatos, faça isso:
+<source src="midia/guanacast-33.mp3" type=audio/mpeg">
+para adicionar outros formatos mude o mp3: 
+type="audio/ogg" 
+type="audio/wav" não use wav porque ele é pesado!
+
+a ordem é importante!
+não use "None" ou "auto" no seu site, use metadata.
+para audios curtos e se quiser repetir eles, use <loop>
+
+-------------------------------------------------------------------------------------------
+                                           PARA VIDEO
+dicas para diminuir videos:
+acesse o site handbrake e baixe o app
+
+dica: use todos os formatos de videos no seu site: ogv, m4v e mp4.
+
+para inserir um video no site, use a tag <video> , source src e type.
+para diminuir a largura use "width"
+não esqueça da tag "controls"
+para colocar uma capa no seu video, use a tag <poster>
+
+Pode gerar um custo muito grande para seu cliente se vc usar o código de uma forma
+em que ele carregue o video em vários formatos como ogv,
+por ser muito pesado. por isso, use a técnica de adicionar
+videos de serviços de hospedagem de videos! (como Youtube)
+
+depois de pegar o video no Youtube, clique em compartilhar > incorporar.
+depois, é so dar control + v no VScode.
+
+outra opção é o Vimeo, ele é pago, sua vantagem é sua ótima qualidade e vc pode escolher
+entre videos que sao privados ou publicos, mas sua desvantagem é que o algoritmo dele
+nao é tao bom quanto do Youtube.
+
+se quiser colocar um video do Vimeo no seu código, use: 
+vá para o site do Vimeo, clique no video > compartilhar > incorporar.
+depois, é so dar control + v no VScode.
+
+-------------------------------------------------------------------------------------------
+
+IMPORTANTE:
+
+para centralizar algo, use  style junto com text align center.
+
+para criar uma imagem que quando vc clica ela direciona vc para algum link novo, use a tag
+<a> junto com <img>
+
+para alterar a cor da letra do texto, use <style> junto com "color.
+-------------------------------------------------------------------------------------------
+
+
