@@ -1,4 +1,7 @@
 {
     "editor.wordWrap": "on",
-    "workbench.colorTheme": "BearThemeHighContrast"
+    "workbench.colorTheme": "BearThemeHighContrast",
+    "vscode-pokemon.theme": "castle",
+    "vscode-pokemon.pokemonSize": "small",
+    "files.autoSave": "onWindowChange"
 }
