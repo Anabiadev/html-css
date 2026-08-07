@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../../Meus sites/.vscode"
+		},
+		{
+			"path": "../../../../../../../Meus sites"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "BearThemeHighContrast",
+		"vscode-pokemon.theme": "castle",
+		"vscode-pokemon.pokemonSize": "small",
+		"editor.wordWrap": "wordWrapColumn",
+		"files.autoSave": "onWindowChange"
+	}
+}
