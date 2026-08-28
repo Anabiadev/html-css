@@ -12,9 +12,13 @@ body {
     line-height: 1.5;
 }
 
-p, h1, h2 {
+p {
     margin-bottom: 10px;
     text-align: justify;
+}
+
+h1, h2 {
+    text-align: center;
 }
 
 header, section.normal {
@@ -24,4 +28,39 @@ header, section.normal {
 section.flex-content {
     background-color: lightgray;
     padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 500px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+    width: 90%;
 }
